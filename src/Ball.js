@@ -2,8 +2,16 @@ import React from "react";
 
 export default class Ball extends React.Component {
 
+	state = {
+		positionY: 10
+	}
+
 	handleJump = (event) => {
-		
+		// debugger;
+		this.setState({
+			positionY: this.state.positionY + 10
+		})
+		event.target.style.bottom = `${this.state.positionY}px`
 	}
 
 
@@ -13,7 +21,7 @@ export default class Ball extends React.Component {
 
 		return (
 			<React.Fragment>
-				<img onClick={this.handleJump} className="small-ball" src={image_url} alt="tennis ball" />
+				<img onClick={this.handleJump} className="small-ball"  src={image_url} alt="tennis ball" />
 			</React.Fragment>
 		)
 	}

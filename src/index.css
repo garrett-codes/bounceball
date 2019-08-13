@@ -24,7 +24,8 @@ code {
 .small-ball {
 	height: 30px;
 	width: 30px;
-	margin-top: 470px;
+	/*margin-top: 470px;*/
+	position: relative;
 }
 
 
