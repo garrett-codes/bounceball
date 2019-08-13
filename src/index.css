@@ -14,9 +14,17 @@ code {
 
 
 .App{
-	align-self: center;
-	display: flex;
-	align-items: center;
-	justify-content: center;
+	border: 4px solid;
+	margin-left: 200px;
 	margin-top: 200px;
+	height: 500px;
+	width: 500px;
 }
+
+.small-ball {
+	height: 30px;
+	width: 30px;
+	margin-top: 470px;
+}
+
+

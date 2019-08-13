@@ -5,7 +5,7 @@ import Ball from './Ball'
 
 function App() {
   return (
-    <div height="500px" width="500px" className="App">
+    <div className="App">
       <Ball />
     </div>
   );
